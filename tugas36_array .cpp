@@ -5,7 +5,6 @@ int main(){
     int a, b, i;
     float x[6], pembilang, penyebut, jmlh;
 
-    jmlh = 0;
     pembilang = 0;
     penyebut = 0;
     a = 2;
