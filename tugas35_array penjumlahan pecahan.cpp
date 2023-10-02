@@ -3,7 +3,8 @@ using namespace std;
 
 int main(){
 
-    int bil[6], jmlh,z, i;
+    int i;
+    float bil[6], z, jmlh;
 
     jmlh = 0;
     z = 9;
