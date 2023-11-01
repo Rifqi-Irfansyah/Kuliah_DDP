@@ -7,7 +7,6 @@ int hitung(int A[]){
     i = 1;
     while(i<=5){
         jumlah = jumlah + A[i];
-        cout<<jumlah<<endl;
         i = i + 1;
     }
     return jumlah;
