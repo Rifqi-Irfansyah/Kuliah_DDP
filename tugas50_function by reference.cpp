@@ -10,6 +10,17 @@ void tukar(int (&C)[], int (&D)[]){
         D[i] = temp;
         i = i + 1;
     }
+    cout << "\n----Output Function----\n";
+    i = 1;
+    while(i<=5){
+        cout << "A[" << i << "] = " << C[i] << endl;
+        i = i + 1;
+    }
+    i = 1;
+    while(i<=5){
+        cout << "B[" << i << "] = " << D[i] << endl;
+        i = i + 1;
+    }
 }
 
 int main(){
@@ -29,7 +40,7 @@ int main(){
     
     tukar(A,B);
 
-    cout << "\n----Output----\n";
+    cout << "\n----Output Main----\n";
     i = 1;
     while(i<=5){
         cout << "A[" << i << "] = " << A[i] << endl;
