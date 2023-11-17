@@ -12,7 +12,7 @@ int main(){
     int i;
     Mahasiswa mhsw[6];
 
-    fot (int i; i<5; i++;){
+    for (int i; i<5; i++){
         cout << i <<endl;
     }
 
