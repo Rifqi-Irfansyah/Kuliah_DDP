@@ -1,15 +1,9 @@
 #include <iostream>
 using namespace std;
 
-int main() {
-    int A[6], temp;
+int bubblesort(int (&A)[]){
     bool swap;
-
-    for (int i=1; i<=5; i++){
-        cout <<"Masukkan A[" <<i<<"] = ";
-        cin >> A[i];
-    }
-
+    int temp;
     for (int j=1; j<=5; j++){
         swap = false;
         for (int i=1; i<=4; i++)
@@ -27,6 +21,18 @@ int main() {
             break;
         }
     }
+    return A[6];
+}
+
+int main() {
+    int A[6];
+
+    for (int i=1; i<=5; i++){
+        cout <<"Masukkan A[" <<i<<"] = ";
+        cin >> A[i];
+    }
+
+    bubblesort(A);
 
     cout <<"---Hasil Ascending---\n";
     for (int i=1; i<=5; i++){
