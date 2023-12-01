@@ -2,7 +2,8 @@
 using namespace std;
 
 int main(){
-    int X[6], Q, pembilang;
+    int X[6];
+    float Q, pembilang;
     Q = 0;
     pembilang = 1;
     
